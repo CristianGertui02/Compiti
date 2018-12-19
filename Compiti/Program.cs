@@ -15,7 +15,16 @@ namespace Compiti
             valore = Convert.ToInt32(Console.ReadLine());
             string conversione = Convert.ToString(valore, 2);
             Console.WriteLine($"il numero {valore} diventa {conversione}");
+            
+
+            int valore2 = 0;
+            Console.WriteLine("inserire il numero in base decimale che si desidera convertire");
+            valore2 = Convert.ToInt32(Console.ReadLine());
+            string conversione2 = Convert.ToString(valore, 16);
+            Console.WriteLine($"il numero {valore} diventa {conversione}");
             Console.ReadLine();
+
+
         }
     }
 }
