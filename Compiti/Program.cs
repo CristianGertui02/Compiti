@@ -10,6 +10,12 @@ namespace Compiti
     {
         static void Main(string[] args)
         {
+            int valore = 0;
+            Console.WriteLine("inserire il numero in base decimale che si desidera convertire");
+            valore = Convert.ToInt32(Console.ReadLine());
+            string conversione = Convert.ToString(valore, 2);
+            Console.WriteLine($"il numero {valore} diventa {conversione}");
+            Console.ReadLine();
         }
     }
 }
