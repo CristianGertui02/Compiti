@@ -20,11 +20,19 @@ namespace Compiti
             int valore2 = 0;
             Console.WriteLine("inserire il numero in base decimale che si desidera convertire");
             valore2 = Convert.ToInt32(Console.ReadLine());
-            string conversione2 = Convert.ToString(valore, 16);
-            Console.WriteLine($"il numero {valore} diventa {conversione}");
+            string conversione2 = Convert.ToString(valore2, 16);
+            Console.WriteLine($"il numero {valore2} diventa {conversione}");
+
+            int valore3 = 0;
+            Console.WriteLine("inserire il numero in base decimale che si desidera convertire");
+            valore3 = Convert.ToInt32(Console.ReadLine());
+            string conversione3 = Convert.ToString(valore3, 8);
+            Console.WriteLine($"il numero {valore3} diventa {conversione}");
             Console.ReadLine();
 
+            Console.ReadLine();
 
+            
         }
     }
 }
